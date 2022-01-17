@@ -1,10 +1,16 @@
-import { Layout, App } from '../components';
+import React, { useState } from 'react';
+import { Layout, Header, InteractionGrid, ResponseGrid } from '../components';
 
 const Home = () => {
+  const [isInteraction, setIsInteraction] = useState(true);
 
   return (
     <Layout>
-      <App/>
+      <Header isInteraction={isInteraction} setIsInteraction={setIsInteraction} />
+      {isInteraction ?
+        <InteractionGrid />
+        : <ResponseGrid />
+      }
     </Layout>
   )
 }
