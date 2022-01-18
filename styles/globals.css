@@ -31,6 +31,6 @@
     background-clip: padding-box;
 }
 
-.my-masonry-grid_column > article {
+.my-masonry-grid_column > div {
     margin-bottom: 30px;
 }
