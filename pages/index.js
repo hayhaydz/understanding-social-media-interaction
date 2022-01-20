@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Layout, Header, InteractionGrid, ResponseGrid } from '../components';
+import { Layout, Header, Footer, InteractionGrid, ResponseGrid } from '../components';
 
 const Home = () => {
   const [isInteraction, setIsInteraction] = useState(true);
@@ -11,6 +11,7 @@ const Home = () => {
         <InteractionGrid />
         : <ResponseGrid />
       }
+      <Footer />
     </Layout>
   )
 }

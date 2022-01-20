@@ -5,8 +5,8 @@ const PostExample = ({ buttonGroup }) => {
             <article className="bg-secondary-800 w-full h-[490px] rounded-lg p-6 flex flex-col">
                 <div className="flex mb-4">
                     <span className="w-[48px] h-[48px] bg-secondary-600 rounded-full aspect-square mr-6"></span>
-                    <div>
-                        <span className="block w-64 h-5 bg-secondary-600 rounded-full mb-2"></span>
+                    <div className="max-w-md w-full">
+                        <span className="block w-3/4 h-5 bg-secondary-600 rounded-full mb-2"></span>
                         <span className="block w-32 h-4 bg-secondary-700 rounded-full"></span>
                     </div>
                 </div>
