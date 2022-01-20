@@ -1,7 +1,5 @@
-import { Heart, MessageSquare, Share } from 'react-feather';
-import { Button } from '../';
 
-const PostExample = () => {
+const PostExample = ({ buttonGroup }) => {
     return (
         <div>
             <article className="bg-secondary-800 w-full h-[490px] rounded-lg p-6 flex flex-col">
@@ -24,11 +22,7 @@ const PostExample = () => {
                     <span className="block w-full h-full bg-secondary-700 rounded-lg"></span>
                 </div>
             </article>
-            <div className="flex gap-2 mt-4">
-                <Button ><Heart size={18}/> <span className="font-medium ml-2">Like</span></Button>
-                <Button ><MessageSquare size={18}/> <span className="font-medium ml-2">Comment</span></Button>
-                <Button ><Share size={18}/> <span className="font-medium ml-2">Share</span></Button>
-            </div>
+            { buttonGroup }
         </div>
     )
 }
