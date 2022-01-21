@@ -15,7 +15,6 @@ const ResponseOne = () => {
                                 <span className="block w-3/4 h-4 bg-secondary-600 rounded-full mb-2"></span>
                                 <span className="block w-32 h-3 bg-secondary-700 rounded-full"></span>
                             </div>
-                            {}
                             <span className="w-[16px] h-[16px] bg-primary rounded-full aspect-square"></span>
                         </div>
                         <div>
