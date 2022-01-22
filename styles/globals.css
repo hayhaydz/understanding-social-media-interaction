@@ -40,3 +40,19 @@
     width: 1.4em !important;
     height: 1.4em !important;
 }
+
+.slider-1_4::after {
+    width: 25%;
+}
+
+.slider-2_4::after {
+    width: 50%;
+}
+
+.slider-3_4::after {
+    width: 75%;
+}
+
+.slider-4_4::after {
+    width: 90%;
+}
