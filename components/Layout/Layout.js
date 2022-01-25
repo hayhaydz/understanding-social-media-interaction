@@ -2,7 +2,7 @@ import Head from 'next/head'
 
 const Layout = ({ children }) => {
     return (
-        <main className=" max-w-screen-2xl m-auto px-8 pt-8 prose prose-invert">
+        <main className=" max-w-screen-2xl m-auto px-4 md:px-8 pt-8 prose prose-invert">
             <Head>
                 <title>Understanding Social Media Interaction</title>
                 <meta name="description" content="How can we better improve the experience of giving and receiving on social media?" />
