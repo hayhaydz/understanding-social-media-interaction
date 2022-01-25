@@ -2,7 +2,7 @@ import { Heart, MessageSquare } from 'react-feather';
 
 const ResponseFour = () => {
     return (
-        <article className="bg-secondary-800 w-full h-[800px] rounded-lg p-6 flex flex-col overflow-hidden">
+        <article className="bg-secondary-800 w-full h-[800px] rounded-lg p-4 flex flex-col overflow-hidden">
             <div className="flex mb-4">
                 <span className="w-[38px] h-[38px] bg-secondary-600 rounded-full aspect-square mr-6"></span>
                 <div className="max-w-md w-full">
@@ -24,7 +24,7 @@ const ResponseFour = () => {
                         {
                             [...Array(3)].map((elementInArray, index) => (
                                 <div className="bg-secondary-700 p-2 rounded-lg flex items-center mb-2" key={index}>
-                                    <span className="w-[42px] h-[42px] bg-secondary-600 rounded-full aspect-square mr-6"></span>
+                                    <span className="w-[42px] h-[42px] bg-secondary-600 rounded-full aspect-square mr-6 hidden md:block"></span>
                                     <div className="w-full">
                                         <span className="block w-48 h-4 bg-secondary-600 rounded-full mb-2"></span>
                                         {Math.floor((Math.random() * 100) + 1) % 2 == 0 ? 

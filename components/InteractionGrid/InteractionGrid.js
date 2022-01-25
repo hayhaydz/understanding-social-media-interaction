@@ -138,7 +138,7 @@ const InteractionGrid = () => {
                         <div className="flex mb-4">
                             <span className="w-[38px] h-[38px] bg-secondary-600 rounded-full aspect-square mr-6"></span>
                             <div>
-                                <span className="block w-64 h-4 bg-secondary-600 rounded-full mb-2"></span>
+                                <span className="block w-3/4 h-4 bg-secondary-600 rounded-full mb-2"></span>
                                 <span className="block w-32 h-3 bg-secondary-700 rounded-full"></span>
                             </div>
                         </div>
@@ -155,7 +155,7 @@ const InteractionGrid = () => {
                         <div className="flex mb-4">
                             <span className="w-[38px] h-[38px] bg-secondary-600 rounded-full aspect-square mr-6"></span>
                             <div>
-                                <span className="block w-64 h-4 bg-secondary-600 rounded-full mb-2"></span>
+                                <span className="block w-3/4 h-4 bg-secondary-600 rounded-full mb-2"></span>
                                 <span className="block w-32 h-3 bg-secondary-700 rounded-full"></span>
                             </div>
                         </div>
@@ -175,7 +175,6 @@ const InteractionGrid = () => {
             }/>
             <PostExample buttonGroup={
                 <div className="flex gap-2 mt-4">
-                    <Button className="h-11"><MessageSquare size={18}/> <span className="font-medium ml-2">Comment</span></Button>
                 </div>
             }/>
         </Masonry>

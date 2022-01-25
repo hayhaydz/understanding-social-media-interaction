@@ -23,7 +23,7 @@ const ResponseSix = () => {
             </div>
             <div className="mb-8">
                 <h3 className="m-0 text-sm font-bold mb-2 tracking-wide">Achievements</h3>
-                <div className="bg-secondary-700 p-4 w-full rounded-lg flex flex-col gap-2">
+                <div className="bg-secondary-700 p-4 w-full rounded-lg flex flex-col gap-2 overflow-hidden">
                     <div className="flex gap-2 justify-between">
                         {
                             [...Array(8)].map((elementInArray, index) => (
