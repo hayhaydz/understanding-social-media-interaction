@@ -24,7 +24,7 @@ const ResponseTwo = () => {
                             : <div className="flex items-center mb-4">
                                 <span className="flex items-center mr-4"><MessageSquare className="mr-1" fill="currentcolor" size={18}/></span>
                                 
-                                <p className="m-0"><b className="font-medium">Commented on your post</b> "That is such a..."</p>
+                                <p className="m-0"><b className="font-medium">Commented on your post</b> {`"That is such a..."`}</p>
                             </div>
                         }
                         </div>

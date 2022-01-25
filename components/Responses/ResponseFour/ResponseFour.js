@@ -34,7 +34,7 @@ const ResponseFour = () => {
                                             </div>
                                             : <div className="flex items-center">
                                                 <MessageSquare size={18} fill="currentColor" className="mr-2" />
-                                                <span ><b className="font-medium">Commented on your post</b> "Love this idea..."</span>
+                                                <span ><b className="font-medium">Commented on your post</b> {`"Love this idea..."`}</span>
                                             </div>
                                     }
      

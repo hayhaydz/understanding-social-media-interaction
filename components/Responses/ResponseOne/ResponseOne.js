@@ -22,7 +22,7 @@ const ResponseOne = () => {
                                 <span className="flex items-center mr-2"><Heart className="mr-1" fill="currentColor" size={18}/> {likeCount--}</span>
                                 <span className="flex items-center mr-4"><MessageSquare className="mr-1" fill="currentcolor" size={18}/> {commentCount--}</span>
                                 {Math.floor((Math.random() * 100) + 1) % 2 == 0 ?
-                                    <p className="m-0"><b className="font-medium">Commented on your post</b> "That is such a..."</p>
+                                    <p className="m-0"><b className="font-medium">Commented on your post</b> {`"That is such a..."`}</p>
                                     : <p className="m-0"><b className="font-medium">Liked on of your recent posts</b></p>
                                 }
                             </div>
