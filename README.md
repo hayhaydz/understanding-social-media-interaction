@@ -6,7 +6,14 @@ A website built to present the different options out there currently for interac
 ![](assets/recording_001.gif)
 
 ## Dev
-A Next JS project
-To install `yarn` or `npm i`
-To run `yarn dev` or `npm run dev`
-To build `yarn build` or `npm run build`
+To install 
+
+`yarn` or `npm i`
+
+To run 
+
+`yarn dev` or `npm run dev`
+
+To build 
+
+`yarn build` or `npm run build`
